@@ -5,6 +5,7 @@ const CardList = ({ robots }) => {
    return (
       <div>
          {
+            //for each robot send key, id, name and email to Card.js for rendering
             robots.map((user, i) => {
                return ( 
                   <Card 

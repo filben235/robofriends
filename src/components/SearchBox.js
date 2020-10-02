@@ -7,6 +7,7 @@ const SearchBox = ({searchfield, searchChange}) => {
             className='pa3 ba b--green bg-lightest-blue'
             type='search' 
             placeholder='search robots'
+            //vid förändring av inputen uppdateras input texten som förväntat
             onChange={searchChange}
          />
       </div>
